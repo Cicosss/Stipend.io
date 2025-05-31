@@ -1,0 +1,6 @@
+{
+  "name": "Stipend.io",
+  "description": "Un'applicazione per la gestione delle buste paga che utilizza l'AI per analizzare e spiegare le voci, monitorare i cambiamenti e verificare ferie/permessi. I dati sono salvati localmente.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
