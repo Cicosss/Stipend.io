@@ -1,5 +1,5 @@
 import React from 'react';
-import { Payslip } from '@/src/types';
+import { Payslip } from '@/types';
 
 interface AddEditPayslipPageProps {
   payslips: Payslip[];
@@ -14,5 +14,3 @@ const AddEditPayslipPage: React.FC<AddEditPayslipPageProps> = ({ payslips, onSav
     </div>
   );
 };
-
-export default AddEditPayslipPage;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Payslip } from '@/src/types';
+import { Payslip } from '@/types';
 
 interface PayslipsPageProps {
   payslips: Payslip[];
@@ -14,5 +14,3 @@ const PayslipsPage: React.FC<PayslipsPageProps> = ({ payslips, onDeletePayslip }
     </div>
   );
 };
-
-export default PayslipsPage;

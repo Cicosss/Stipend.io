@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { Payslip, LeavePermitRecord, AppView, UserSettings } from '@/src/types';
-import { APP_NAME } from '@/src/constants';
+import { Payslip, LeavePermitRecord, AppView, UserSettings } from '@/types';
+import { APP_NAME } from '@/constants';
 import DashboardPage from '@/src/pages/DashboardPage';
 import PayslipsPage from '@/src/pages/PayslipsPage';
 import AddEditPayslipPage from '@/src/pages/AddEditPayslipPage';

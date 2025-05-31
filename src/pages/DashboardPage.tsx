@@ -1,5 +1,5 @@
 import React from 'react';
-import { Payslip, LeavePermitRecord, UserSettings } from '@/src/types';
+import { Payslip, LeavePermitRecord, UserSettings } from '@/types';
 
 interface DashboardPageProps {
   payslips: Payslip[];
@@ -15,5 +15,3 @@ const DashboardPage: React.FC<DashboardPageProps> = ({ payslips, leavePermits, u
     </div>
   );
 };
-
-export default DashboardPage;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserSettings } from '@/src/types';
+import { UserSettings } from '@/types';
 
 interface SettingsPageProps {
   userSettings: UserSettings;
@@ -14,5 +14,3 @@ const SettingsPage: React.FC<SettingsPageProps> = ({ userSettings, onSaveUserSet
     </div>
   );
 };
-
-export default SettingsPage;

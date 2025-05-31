@@ -1,5 +1,5 @@
 import React from 'react';
-import { LeavePermitRecord } from '@/src/types';
+import { LeavePermitRecord } from '@/types';
 
 interface LeavePermitManagementPageProps {
   records: LeavePermitRecord[];
@@ -15,5 +15,3 @@ const LeavePermitManagementPage: React.FC<LeavePermitManagementPageProps> = ({ r
     </div>
   );
 };
-
-export default LeavePermitManagementPage;
