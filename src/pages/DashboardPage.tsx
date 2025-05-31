@@ -1,5 +1,5 @@
 import React from 'react';
-import { Payslip, LeavePermitRecord, UserSettings } from '../types';
+import { Payslip, LeavePermitRecord, UserSettings } from '@/src/types';
 
 interface DashboardPageProps {
   payslips: Payslip[];

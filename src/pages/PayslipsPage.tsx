@@ -1,5 +1,5 @@
 import React from 'react';
-import { Payslip } from '../types';
+import { Payslip } from '@/src/types';
 
 interface PayslipsPageProps {
   payslips: Payslip[];

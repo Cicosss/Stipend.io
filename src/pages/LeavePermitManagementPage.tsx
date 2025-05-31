@@ -1,5 +1,5 @@
 import React from 'react';
-import { LeavePermitRecord } from '../types';
+import { LeavePermitRecord } from '@/src/types';
 
 interface LeavePermitManagementPageProps {
   records: LeavePermitRecord[];

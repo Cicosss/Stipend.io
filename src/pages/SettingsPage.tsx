@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserSettings } from '../types';
+import { UserSettings } from '@/src/types';
 
 interface SettingsPageProps {
   userSettings: UserSettings;
