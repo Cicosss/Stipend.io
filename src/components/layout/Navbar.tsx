@@ -11,7 +11,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView }) => {
   return (
     <nav className="bg-slate-800 text-white p-4">
       <div className="container mx-auto flex items-center justify-between">
-        <Link to="/" className="text-xl font-bold">Stipend.io</Link>
+        <Link to="/\" className="text-xl font-bold">Stipend.io</Link>
         <div className="space-x-4">
           <Link to="/" className={`${currentView === AppView.Dashboard ? 'text-emerald-400' : ''}`}>
             Dashboard
