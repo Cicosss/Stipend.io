@@ -6,7 +6,7 @@ const Navbar: React.FC<{ currentView: AppView; setCurrentView: (view: AppView) =
   return (
     <nav className="bg-slate-800 text-white p-4">
       <div className="container mx-auto flex items-center justify-between">
-        <Link to="/" className="text-xl font-bold" onClick={() => setCurrentView(AppView.Dashboard)}>
+        <Link to="/\" className="text-xl font-bold\" onClick={() => setCurrentView(AppView.Dashboard)}>
           Stipend.io
         </Link>
         <div className="flex space-x-4">
