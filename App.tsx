@@ -1,15 +1,14 @@
-
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { Payslip, LeavePermitRecord, AppView, UserSettings } from './types';
-import { APP_NAME } from './constants';
-import DashboardPage from './pages/DashboardPage';
-import PayslipsPage from './pages/PayslipsPage';
-import AddEditPayslipPage from './pages/AddEditPayslipPage';
-import ViewPayslipPage from './pages/ViewPayslipPage';
-import LeavePermitManagementPage from './pages/LeavePermitManagementPage';
-import SettingsPage from './pages/SettingsPage';
-import Navbar from './components/layout/Navbar'; // Import Navbar
+import { Payslip, LeavePermitRecord, AppView, UserSettings } from './src/types';
+import { APP_NAME } from './src/constants';
+import DashboardPage from './src/pages/DashboardPage';
+import PayslipsPage from './src/pages/PayslipsPage';
+import AddEditPayslipPage from './src/pages/AddEditPayslipPage';
+import ViewPayslipPage from './src/pages/ViewPayslipPage';
+import LeavePermitManagementPage from './src/pages/LeavePermitManagementPage';
+import SettingsPage from './src/pages/SettingsPage';
+import Navbar from './src/components/layout/Navbar';
 import { 
   loadPayslipsFromStorage, 
   savePayslipsToStorage, 
@@ -17,7 +16,7 @@ import {
   saveLeavePermitsToStorage,
   loadUserSettingsFromStorage,
   saveUserSettingsToStorage
-} from './services/storageService';
+} from './src/services/storageService';
 
 // Defines the mapping between URL paths and AppView states
 const pathToViewMap: Array<{ pathCheck: (p: string) => boolean; view: AppView }> = [
