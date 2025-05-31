@@ -14,3 +14,5 @@ const SettingsPage: React.FC<SettingsPageProps> = ({ userSettings, onSaveUserSet
     </div>
   );
 };
+
+export default SettingsPage

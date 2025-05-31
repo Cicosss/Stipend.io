@@ -15,3 +15,5 @@ const DashboardPage: React.FC<DashboardPageProps> = ({ payslips, leavePermits, u
     </div>
   );
 };
+
+export default DashboardPage

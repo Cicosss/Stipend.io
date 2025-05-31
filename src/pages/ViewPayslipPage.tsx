@@ -14,3 +14,5 @@ const ViewPayslipPage: React.FC<ViewPayslipPageProps> = ({ payslips, onUpdatePay
     </div>
   );
 };
+
+export default ViewPayslipPage

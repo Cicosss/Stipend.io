@@ -14,3 +14,5 @@ const PayslipsPage: React.FC<PayslipsPageProps> = ({ payslips, onDeletePayslip }
     </div>
   );
 };
+
+export default PayslipsPage

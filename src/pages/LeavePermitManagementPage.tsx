@@ -15,3 +15,5 @@ const LeavePermitManagementPage: React.FC<LeavePermitManagementPageProps> = ({ r
     </div>
   );
 };
+
+export default LeavePermitManagementPage

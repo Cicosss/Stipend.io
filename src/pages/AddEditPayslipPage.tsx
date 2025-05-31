@@ -14,3 +14,5 @@ const AddEditPayslipPage: React.FC<AddEditPayslipPageProps> = ({ payslips, onSav
     </div>
   );
 };
+
+export default AddEditPayslipPage
